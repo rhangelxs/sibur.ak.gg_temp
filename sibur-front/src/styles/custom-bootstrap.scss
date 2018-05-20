@@ -1,0 +1,27 @@
+$primary: #138a90;
+
+div.main-sidebar {
+  background-color: $primary;
+  color: white;
+}
+
+footer {
+  background-color: $primary;
+  color: white;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+#app, #app>div, .container-fluid,
+.container-fluid > .row { height: inherit; }
+
+//.container-fluid {
+//  min-height: 100%;
+//}
+
+//body > .container {
+//  margin-bottom: 30px;
+//}
